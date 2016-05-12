@@ -1,0 +1,7 @@
+kmt:
+  corticatest:
+    transformers:
+      - kmt.corticatest.transformers.ImageResizer
+      - kmt.corticatest.transformers.ImageGrayer
+    imageDownloader:
+      downloadPath: g:/tmp/downloads
